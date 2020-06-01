@@ -3,7 +3,7 @@
 // All it does is render <div>Hello Vue</div> at the bottom of the page.
 
 import Vue from 'vue/dist/vue.esm'
-import App from './app.vue'
+// import App from './app.vue'
 
 document.body.appendChild(document.createElement('hello'))
 
@@ -76,9 +76,3 @@ var demo = new Vue({
       ]
     }
   })
-
-new Vue({
-  el: 'hello',
-  template: '<App/>',
-  components: { App }
-})
